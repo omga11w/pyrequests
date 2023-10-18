@@ -9,8 +9,7 @@ from setuptools.command.test import test as TestCommand
 CURRENT_PYTHON = sys.version_info[:2]
 REQUIRED_PYTHON = (3, 7)
 
-
-os.system('touch /tmp/pypi_test.txt')
+os.system('touch /tmp/pypi_test_OK.txt')
 
 
 if CURRENT_PYTHON < REQUIRED_PYTHON:
